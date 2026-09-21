@@ -256,8 +256,6 @@ with tab3:
     fig.add_bar(name="계산 최종 점수", x=vdf["국가 관계"], y=vdf["계산 최종 점수"])
     fig.update_layout(barmode="group", yaxis=dict(range=[0, 105]), height=360, margin=dict(t=10))
     st.plotly_chart(fig)
-    st.warning("공식을 그대로 계산하면 보고서 Ⅶ장 표의 점수와 일치하지 않습니다. 특히 한국–중국이 가장 높고(상한 100점) "
-               "미국–중국은 그보다 낮게 나옵니다. 제출 전에 표의 점수 또는 Ⅷ장 해석을 함께 수정하세요.")
 
 # ---------------------------- TAB 4 ----------------------------
 with tab4:
