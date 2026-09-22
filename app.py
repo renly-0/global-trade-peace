@@ -243,7 +243,6 @@ with tab2:
 # ---------------------------- TAB 3 ----------------------------
 with tab3:
     st.subheader("보고서 표의 점수와 공식 계산값 비교")
-    st.write("보고서 Ⅴ·Ⅶ장에 수록된 자료(고정값)에 Ⅵ장 공식을 그대로 적용한 결과입니다. 실시간 조회값과는 무관합니다.")
     vr = []
     for (a, b), p in core.PAIRS.items():
         res = core.analyze_pair(a, b, p["trade"])
